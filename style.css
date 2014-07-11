@@ -23,15 +23,7 @@ time, mark, audio, video {
 body{width: 1024px;
 	margin: 0 auto;
 	font-family: helvetica, Arial, sans-serif;}
-header {height:200px;}
-li {list-style: none;}
-a {text-decoration: none;
-	color:black;
-	font-weight:bold;}
-header ul li {float:right;
-	padding-left: 30px;
-	margin-top:20px;
-	font-size: 20px;}
+header {height:40px;}
 footer ul li {float:left;
 	padding-right: 30px;
 	margin:10px 0 0 0px;
