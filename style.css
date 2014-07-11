@@ -47,6 +47,11 @@ table {
    width: 100%; /* for IE 6 */
 }
 
+h2{font-family: 'UbuntuBold';
+	font-size:70px;
+   margin: 20px 0 15px 0;
+   text-align: center; 
+   font-weight: bold; }
 
 @font-face {
     font-family: 'UbuntuBold';
@@ -72,11 +77,6 @@ h1{ font-family: 'UbuntuBold';
 	font-size:60px;
 	float:left;
    margin-top: 10px;}
-h2{font-family: 'UbuntuBold';
-	font-size:70px;
-   margin: 20px 0 15px 0;
-   text-align: center; 
-   font-weight: bold; }
 li {list-style: none;}
 a {text-decoration: none;
 	color:black;
