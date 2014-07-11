@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 
-.image { 
+.river { 
    position: relative; 
    width: 100%; /* for IE 6 */
 }
@@ -52,6 +52,7 @@ h2 {
    top: 200px; 
    left: 0; 
    width: 100%; 
+   color: white;
 }
 
 /* END OF RESET - Start of Your CSS*/
