@@ -47,15 +47,7 @@ table {
    width: 100%; /* for IE 6 */
 }
 
-h2 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
-   font-size: 40px;
-}
 
-/* END OF RESET - Start of Your CSS*/
 @font-face {
     font-family: 'UbuntuBold';
     src: url('fonts/Ubuntu-B-webfont.eot');
@@ -80,7 +72,7 @@ h1{ font-family: 'UbuntuBold';
 	font-size:60px;
 	float:left;
    margin-top: 10px;}
-h2{ font-family: 'UbuntuBold';
+h2{font-family: 'UbuntuBold';
 	font-size:70px;
    margin: 20px 0 15px 0;
    text-align: center; 
