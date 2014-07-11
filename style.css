@@ -45,7 +45,9 @@ h1{ font-family: 'UbuntuBold';
 	font-size:40px;
 	float:left;
    margin-top: 10px;}
-
+img {
+	position: right;
+}
 li {list-style: none;}
 a {text-decoration: none;
 	color:black;
