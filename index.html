@@ -10,11 +10,14 @@
 </script>
 <html lang="en">
 <head>
-	 <title>BVH</title>
+	 
 	 <meta charset="utf-8" />
-	 <meta name="viewport" content="width-device-width, initial-scale=1.0">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	 <link href="css/bootstrap.min.css" rel="stylesheet">
 	 <link href="css/styles.css" rel="stylesheet">
+
+	 <title>BVH</title>
 
 
 
@@ -39,8 +42,12 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="#">Blog</a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="assets1/BrettvonHalle-resume1.pdf" onclick="ga('send', 'event', { eventCategory: 'download', eventAction: 'resume'});" target="_blank">Resume</a></li>
+
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+					
+
+
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -90,6 +97,30 @@
 		<li><a href="https://github.com/StartupInstitute" target="_blank"><img src="assets1/images/github.png"/></a></li>
 	</ul>
 </footer>
+
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4>Contact Brett von Halle</h4>
+				</div>
+				<div class="modal-body">
+					<p>Contact me</p>
+				</div>
+				<div class="modal-footer">
+					<a class="btn btn-default" data-dismiss="modal">Close</a>
+					<a class="btn btn-primary">Send</a>
+				</div>
+			</div>
+
+
+		</div>
+
+
+	</div>
+
+
+
 </body>
 </html>
 
