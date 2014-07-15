@@ -22,15 +22,63 @@
 
 .jumbotron .container {
 	position: relative;
-	top: 100px;
+	top: 50px;
 
 }
 
 .jumbotron h1 {
-	color: #fff; font-family: 'Droid Serif', serif;
+	color: #fff; 
+	font-family: 'Droid Serif', serif;
 }
 
 .jumbotron p {
-	color: #fff; font-family: 'Droid Sans', sans-serif;
+	color: #fff; 
+	font-family: 'Droid Sans', sans-serif;
 }
+
+.navbar-brand {
+	font-size: 36px;
+}
+
+.transbox {
+    width: 400px;
+    height: 180px;
+    margin: 30px 50px;
+    background-color: #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.navbar-brand {
+	margin-top: 10px;
+	color: #9966FF;
+}
+
+.navbar-inverse .navbar-brand {
+	color: black;
+}
+
+.navbar-inverse {
+	background-color: #CCFFFF;
+	opacity: 1;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
