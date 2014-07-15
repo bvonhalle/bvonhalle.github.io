@@ -1,15 +1,14 @@
 
 
 .jumbotron {
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2b/Chicago_Skyline_from_Lake_Michigan.jpg);
-	height: 500px;
+	background-image: url(https://1.bp.blogspot.com/-4bYk3je0xnU/UnP8C-A_SII/AAAAAAAA7s4/2o7KihwyQVs/s1600/PHOTO+-+CHICAGO+-+SKYLINE+AND+LAKE+FRONT+-+AERIAL+-+LOOKING+S+-+FROM+NEAR+LINCOLN+PARK++-+TRUMP+TOWER+UNDER+CONSTRUCTION+-+FAIRLY+CONTEMPORARY.jpg);
+	height: 600px;
 	no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin-bottom: 0pt;
-
 }
 
 .jumbotron .container {
@@ -20,15 +19,16 @@
 }
 
 .jumbotron h1 {
-	color: #fff; 
+	color: black; 
 	font-family: 'Pacifico', cursive;
 
 }
 
 .jumbotron p {
-	color: #fff; 
+	color: black; 
 	font-family: 'Kaushan Script', cursive;
 	font-size: 20pt;
+	font-weight: bold;
 }
 
 .navbar-brand {
@@ -67,7 +67,7 @@
 }
 
 .bottombox {
-	color: #CCFFFF;
+	background-color: #CCFFFF;
 }
 
 .navbar-toggle {
@@ -90,6 +90,7 @@
 	list-style-type: none;
 	padding-left: 20px;
 	float: left;
+	margin-bottom: 10px;
 }
 
 .socialnetworklink li:nth-child(4) {
@@ -102,10 +103,29 @@
 	margin-top: 7pt;
 }
 
+.copyright {
+	color: black;
+	margin-top: 10px;
+	float: right;
+	padding-right: 50px
+}
 
+.navbar-inverse .navbar-text {
+}
 
+.navbar-inverse .navbar-nav > li > a {
 
+}
 
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+	color: black;
+}
 
 
 
