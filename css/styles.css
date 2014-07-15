@@ -1,14 +1,4 @@
-.darkBG {
-	background: #999;
-}
 
-.darkerBG {
-	background: #666;
-}
-
-.darkestBG {
-	background: #333;
-}
 
 .jumbotron {
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2b/Chicago_Skyline_from_Lake_Michigan.jpg);
@@ -18,22 +8,27 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    margin-bottom: 0pt;
+
 }
 
 .jumbotron .container {
 	position: relative;
-	top: 50px;
+	top: 0px;
+	margin-bottom: 0pt;
 
 }
 
 .jumbotron h1 {
 	color: #fff; 
 	font-family: 'Pacifico', cursive;
+
 }
 
 .jumbotron p {
 	color: #fff; 
 	font-family: 'Kaushan Script', cursive;
+	font-size: 20pt;
 }
 
 .navbar-brand {
@@ -71,13 +66,41 @@
 	font-family: 'Lobster', cursive;
 }
 
+.bottombox {
+	background-color: #CCFFFF;
+}
 
+.navbar-toggle {
+	background-color: black
+}
 
+.socialnetworklink li:first-child {
+	list-style-type: none;
+	padding-left: 20px;
+	float: left;
+}
 
+.socialnetworklink li:nth-child(2) {
+	list-style-type: none;
+	padding-left: 20px;
+	float: left;
+}
 
+.socialnetworklink li:nth-child(3) {
+	list-style-type: none;
+	padding-left: 20px;
+	float: left;
+}
 
+.socialnetworklink li:nth-child(4) {
+	list-style-type: none;
+	padding-left: 20px;
+	float: left;
+}
 
-
+.navbar-nav {
+	margin-top: 7pt;
+}
 
 
 
