@@ -54,8 +54,10 @@
 	color: #9966FF;
 }
 
+/* Brett von Halle*/
 .navbar-inverse .navbar-brand {
 	color: black;
+	font-family: 'Lobster', cursive;
 }
 
 .navbar-inverse {
@@ -65,7 +67,9 @@
 }
 
 
-
+.navbar-inverse .container a {
+	font-family: 'Lobster', cursive;
+}
 
 
 
