@@ -35,15 +35,6 @@
 	font-size: 36px;
 }
 
-.transbox {
-    width: 400px;
-    height: 180px;
-    margin: 30px 50px;
-    background-color: #ffffff;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
 .navbar-brand {
 	margin-top: 10px;
 	color: #9966FF;
@@ -66,55 +57,45 @@
 	font-family: 'Lobster', cursive;
 }
 
-.bottombox {
-	background-color: #CCFFFF;
-	margin-bottom: 10px;
-}
-
 .navbar-toggle {
 	background-color: black
+}
+
+.socialnetworklink {
+	padding-top: 10px;
 }
 
 .socialnetworklink li:first-child {
 	list-style-type: none;
 	padding-left: 20px;
+	display: inline;
 }
 
 .socialnetworklink li:nth-child(2) {
 	list-style-type: none;
 	padding-left: 20px;
-	float: left;
+	display: inline;
 }
 
 .socialnetworklink li:nth-child(3) {
 	list-style-type: none;
 	padding-left: 20px;
-	float: left;
-	margin-bottom: 10px;
+	display: inline;
 }
 
 .socialnetworklink li:nth-child(4) {
 	list-style-type: none;
 	padding-left: 20px;
-	float: left;
+	display: inline;
+}
+
+.socialnetworklink p {
+	display: inline;
+	padding-left: 20px;
 }
 
 .navbar-nav {
 	margin-top: 7pt;
-}
-
-.copyright {
-	color: black;
-	margin-top: 10px;
-	float: right;
-	padding-right: 50px
-}
-
-.navbar-inverse .navbar-text {
-}
-
-.navbar-inverse .navbar-nav > li > a {
-
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -134,6 +115,7 @@
 
 .illusions {
 	float: left;
+	margin-bottom: 0px;
 }
 
 .whosdog {
@@ -152,5 +134,10 @@
 	font-family: 'Pacifico', cursive;
 }
 
+.bottombox1 {
+	float: left;
+}
 
-
+.copyright1 {
+	float: right;
+}
