@@ -133,23 +133,23 @@
 	color: black;
 }
 
-.illusions {
+div .illusions {
 	margin: auto;
 }
 
-.whosdog {
+div .whosdog {
 	margin: auto;
 }
 
-.humangiant {
+div .humangiant {
 	margin: auto;
 }
 
-.pasta {
+div .pasta {
 	margin: auto;
 }
 
-.intro {
+div .intro {
 	margin: auto;
 	font-family: 'Lobster', cursive;
 }
