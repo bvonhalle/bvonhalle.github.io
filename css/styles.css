@@ -61,10 +61,6 @@
 	background-color: black
 }
 
-.socialnetworklink {
-	padding-top: 10px;
-}
-
 .socialnetworklink li:first-child {
 	list-style-type: none;
 	padding-left: 20px;
@@ -90,6 +86,7 @@
 }
 
 .socialnetworklink p {
+	list-style-type: none;
 	display: inline;
 	padding-left: 20px;
 }
