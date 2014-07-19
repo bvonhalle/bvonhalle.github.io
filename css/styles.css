@@ -122,6 +122,7 @@
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
 	color: white;
+	background-color: black
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
