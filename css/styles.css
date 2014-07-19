@@ -85,10 +85,10 @@
 	display: inline;
 }
 
-.socialnetworklink p {
+.socialnetworklink li:nth-child(5) {
 	list-style-type: none;
-	display: inline;
 	padding-left: 20px;
+	display: inline;
 }
 
 .navbar-nav {
