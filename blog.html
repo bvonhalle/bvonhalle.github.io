@@ -62,13 +62,82 @@
 	<div class="intro">
 		<h1>My Favorite Shorts</h1>
 	</div>
-	<div class="whosdog">
-			<iframe width="420" height="315" src="//www.youtube.com/embed/TCDbY_lXS5A" frameborder="0" allowfullscreen></iframe>
+	<div>	
+		<div class="whosdog">
+				<iframe width="420" height="315" src="//www.youtube.com/embed/TCDbY_lXS5A" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="pasta">
+			<iframe width="560" height="315" src="//www.youtube.com/embed/hgdGp-YO1AM" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</div>
-	<div class="humangiant">
-		<iframe width="420" height="315" src="//www.youtube.com/embed/EhPrzjyUiZE" frameborder="0" allowfullscreen></iframe>
+	<div>
+		<div class="humangiant">
+			<iframe width="420" height="315" src="//www.youtube.com/embed/EhPrzjyUiZE" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/G5MQpvF3tYs?list=UUk_M1a2YDSxrKLf-QXNe-qQ" frameborder="0" allowfullscreen></iframe>
+		</div>
 	</div>
 
+	<footer>
+		<div class="bottombox">
+			<ul class="socialnetworklink">
+				<li><a href="https://www.facebook.com/StartupInst" style="float: none; width: auto;" target="_blank"><img src="assets1/images/facebook.png"/></a></li>
+				<li><a href="https://twitter.com/StartupInst" style="float: none; width: auto;" target="_blank"><img src="assets1/images/twitter.png"/></a></li>
+				<li><a href="http://www.linkedin.com/in/bvonhalle" style="float: none; width: auto;" target="_blank"><img src="assets1/images/linkedin.png"/></a></li>
+				<li><a href="https://github.com/StartupInstitute" style="float: none; width: auto;" target="_blank"><img src="assets1/images/github.png"/></a></li>
+			</ul>
+			<div class="copyright">
+				<p>&copy Brett von Halle</p>
+			</div>
+		</div>
+</footer>
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<form name="contactme" method="post" action="send_form.php" onsubmit="return encrypt();"> 
+					<div class="modal-header">
+						<h4>Contact Brett von Halle</h4>
+					</div>
+					<div class="modal-body">
+							<table width="450px">
+								<tr>
+							  		<td valign="top">
+							   			<label for="email">Your Email</label>
+							 		</td>
+							  		<td valign="top">
+							   			<input type="text" name="email" style="height:18px;width:300px;">
+							  		</td>
+							 	</tr>	
+								<tr>
+							  		<td valign="top">
+							   			<label for="subject">Subject</label>
+							 		</td>
+							  		<td valign="top">
+							   			<input type="text" name="subject" style="height:18px;width:300px;">
+							  		</td>
+							 	</tr>
+								<tr>
+									<td valign="top">
+										<label for="message">Message</label>
+									</td>
+									<td valign="top">
+										<textarea  id="message" name="message" style="height:150px;width:300px;"></textarea>
+								 </td>
+								</tr>
+								<tr>
+								</tr> 
+							</table> 
+							<div class="modal-footer">
+								<a class="btn btn-default" data-dismiss="modal">Close</a>
+								<input type="submit" class="btn btn-primary">
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 
 
 
