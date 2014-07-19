@@ -134,6 +134,7 @@
 }
 
 .illusions {
+	position: fixed;
 	top: 50%;
 	left: 50%;
 }
@@ -147,7 +148,7 @@
 	align='middle';
 }
 
-div .pasta {
+.pasta {
 	position: ;
 }
 
