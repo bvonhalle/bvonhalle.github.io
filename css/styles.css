@@ -112,7 +112,6 @@
 
 .illusions {
 	float: left;
-	margin-bottom: 80px;
 }
 
 .whosdog {
@@ -131,6 +130,13 @@
 	font-family: 'Pacifico', cursive;
 }
 
-.bottombox {
+.bottombox1 {
+	float: left;
 	margin-top: 10px;
 }
+
+
+
+
+
+
