@@ -126,19 +126,35 @@
 	float: left;
 }
 
+.backgroundfun {
+	background-color: #0cd957;
+	overflow: hidden;
+}
+
 .intro h1 {
 	font-family: 'Pacifico', cursive;
+	text-align: center;
+	color: black;
 }
 
 .bottombox1 {
-	float: left;
-	margin-top: 10px;
+	padding-top: 10px;
+	background-color: #CCFFFF;
+	overflow: hidden;
 }
 
 .bottombox {
-	margin-top: 10px;
+	padding-top: 10px;
+	background-color: #CCFFFF;
+	overflow: hidden;
 }
 
+.blog1 {
+	font-family: "Kaushan Script";
+	padding-left: 60px;
+	padding-top: 10px;
+	color: black;
+}
 
 
 
