@@ -1,9 +1,9 @@
 <?php
 // OPTIONS - PLEASE CONFIGURE THESE BEFORE USE!
 
-$yourEmail = ""; // the email address you wish to receive these mails through
-$yourWebsite = "WEBSITE NAME"; // the name of your website
-$thanksPage = ''; // URL to 'thanks for sending mail' page; leave empty to keep message on the same page 
+$yourEmail = "bvonhalle@gmail.com"; // the email address you wish to receive these mails through
+$yourWebsite = "Brett von Halle"; // the name of your website
+$thanksPage = 'Thank you'; // URL to 'thanks for sending mail' page; leave empty to keep message on the same page 
 $maxPoints = 4; // max points a person can hit before it refuses to submit - recommend 4
 $requiredFields = "name,email,comments"; // names of the fields you'd like to be required as a minimum, separate each field with a comma
 

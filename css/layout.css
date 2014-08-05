@@ -38,6 +38,7 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   background-attachment: fixed;
 }
 
 /* vertically center banner section */
@@ -61,11 +62,13 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font-family: "Pacifico", cursive;
+   font-size: 90px/1.1em;
    color: #fff;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   padding: 20px;
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -182,7 +185,8 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #3BC2FF; }
+
 
 
 /* ------------------------------------------------------------------ */
@@ -210,8 +214,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -284,6 +288,26 @@ ul#nav li.current a { color: #F06000; }
    margin-top: 6px;
 }
 
+.SIC {
+  color: #6E7881;
+}
+
+.UOM {
+  color: #6E7881;
+}
+
+.EB {
+  color: #6E7881;
+}
+
+.HC {
+  color: #6E7881;
+}
+
+.skillz {
+  color: #6E7881;
+  text-align: center;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -792,7 +816,7 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 96px;
+   padding-top: 85px;
    padding-bottom: 102px;
    color: #636363;
 }
@@ -974,7 +998,7 @@ footer .social-links li {
     margin: 0;
     padding: 0;
     margin-left: 42px;
-    color: #F06000;
+    color: #3BC2FF;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
