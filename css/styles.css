@@ -166,3 +166,37 @@
     text-align: center;
 
 }
+
+.email_header {
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 40px;
+    font-size: 42px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#email {
+    background: #2B2B2B;
+
+}
+
+.email_strategy { 
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    
+
+}
+
+.email_list {
+    color: ghostwhite;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+.padding_4p { 
+    padding: 4%;
+}
