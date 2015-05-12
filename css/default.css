@@ -804,7 +804,10 @@ properly.
 }
 
 
-
-
+/* MY STUFF*/
+.header_email h2 {
+    text-align: center;
+    color: whitesmoke;
+}
 
 
