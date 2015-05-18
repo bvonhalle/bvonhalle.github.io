@@ -200,3 +200,10 @@ li {
 .padding_4p { 
     padding: 4%;
 }
+
+.email-icons {
+    max-width: 150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
