@@ -3,6 +3,7 @@
 .jumbotron {
 	background-image: url(https://1.bp.blogspot.com/-4bYk3je0xnU/UnP8C-A_SII/AAAAAAAA7s4/2o7KihwyQVs/s1600/PHOTO+-+CHICAGO+-+SKYLINE+AND+LAKE+FRONT+-+AERIAL+-+LOOKING+S+-+FROM+NEAR+LINCOLN+PARK++-+TRUMP+TOWER+UNDER+CONSTRUCTION+-+FAIRLY+CONTEMPORARY.jpg);
 	height: 600px;
+    background-attachment: fixed;
 	no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -191,6 +192,8 @@
     color: ghostwhite;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
+    padding-top: 10px;
+    font-size: 17px;
 }
 
 li {
