@@ -1,10 +1,8 @@
-
-
 .jumbotron {
-	background-image: url(https://1.bp.blogspot.com/-4bYk3je0xnU/UnP8C-A_SII/AAAAAAAA7s4/2o7KihwyQVs/s1600/PHOTO+-+CHICAGO+-+SKYLINE+AND+LAKE+FRONT+-+AERIAL+-+LOOKING+S+-+FROM+NEAR+LINCOLN+PARK++-+TRUMP+TOWER+UNDER+CONSTRUCTION+-+FAIRLY+CONTEMPORARY.jpg);
-	height: 600px;
+    background-image: url(https://1.bp.blogspot.com/-4bYk3je0xnU/UnP8C-A_SII/AAAAAAAA7s4/2o7KihwyQVs/s1600/PHOTO+-+CHICAGO+-+SKYLINE+AND+LAKE+FRONT+-+AERIAL+-+LOOKING+S+-+FROM+NEAR+LINCOLN+PARK++-+TRUMP+TOWER+UNDER+CONSTRUCTION+-+FAIRLY+CONTEMPORARY.jpg);
+    height: 600px;
     background-attachment: fixed;
-	no-repeat center center fixed; 
+    no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,194 +11,186 @@
 }
 
 .jumbotron .container {
-	position: relative;
-	top: 0px;
-	margin-bottom: 0pt;
-
+    position: relative;
+    top: 0px;
+    margin-bottom: 0pt;
 }
 
 .jumbotron h1 {
-	color: black; 
-	font-family: 'Pacifico', cursive;
-
+    color: black;
+    font-family: 'Pacifico', cursive;
 }
 
 .jumbotron p {
-	color: black; 
-	font-family: 'Kaushan Script', cursive;
-	font-size: 20pt;
-	font-weight: bold;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20pt;
+    font-weight: bold;
 }
 
 .navbar-brand {
-	font-size: 36px;
+    font-size: 36px;
 }
 
 .navbar-brand {
-	margin-top: 10px;
-	color: #9966FF;
+    margin-top: 10px;
+    color: #9966FF;
 }
-
 /* Brett von Halle*/
+
 .navbar-inverse .navbar-brand {
-	color: black;
-	font-family: 'Lobster', cursive;
+    color: black;
+    font-family: 'Lobster', cursive;
 }
 
 .navbar-inverse {
-	background-color: #CCFFFF;
-	opacity: 1;
-	border: none;
+    background-color: #CCFFFF;
+    opacity: 1;
+    border: none;
 }
 
-
 .navbar-inverse .container a {
-	font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 .navbar-toggle {
-	background-color: black
+    background-color: black
 }
 
 .socialnetworklink li:first-child {
-	list-style-type: none;
-	padding-left: 20px;
-	display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    display: inline;
 }
 
 .socialnetworklink li:nth-child(2) {
-	list-style-type: none;
-	padding-left: 20px;
-	display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    display: inline;
 }
 
 .socialnetworklink li:nth-child(3) {
-	list-style-type: none;
-	padding-left: 20px;
-	display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    display: inline;
 }
 
 .socialnetworklink li:nth-child(4) {
-	list-style-type: none;
-	padding-left: 20px;
-	display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    display: inline;
 }
 
 .socialnetworklink p {
-	list-style-type: none;
-	padding-left: 20px;
-	display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+    display: inline;
 }
 
 .navbar-nav {
-	margin-top: 7pt;
+    margin-top: 7pt;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-	color: white;
-	background-color: black
+    color: white;
+    background-color: black
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-	color: black;
+    color: black;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-	color: black;
+    color: black;
 }
 
 .illusions {
-	float: left;
+    float: left;
 }
 
 .whosdog {
-	float: left;
+    float: left;
 }
 
 .humangiant {
-	float: left;
+    float: left;
 }
 
 .pasta {
-	float: left;
+    float: left;
 }
 
 .backgroundfun {
-	background-color: #0cd957;
-	overflow: hidden;
+    background-color: #0cd957;
+    overflow: hidden;
 }
 
 .intro h1 {
-	font-family: 'Pacifico', cursive;
-	text-align: center;
-	color: black;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: black;
 }
 
 .bottombox1 {
-	padding-top: 10px;
-	background-color: #CCFFFF;
-	overflow: hidden;
+    padding-top: 10px;
+    background-color: #CCFFFF;
+    overflow: hidden;
 }
 
 .bottombox {
-	padding-top: 10px;
-	background-color: #CCFFFF;
-	overflow: hidden;
+    padding-top: 10px;
+    background-color: #CCFFFF;
+    overflow: hidden;
 }
 
 .blog1 {
-	font-family: "Kaushan Script";
-	padding-left: 60px;
-	padding-top: 10px;
-	color: black;
+    font-family: "Kaushan Script";
+    padding-left: 60px;
+    padding-top: 10px;
+    color: black;
 }
 
 .header-email-marketing {
     text-align: center;
     color: white;
-
 }
 
 .header_email {
     text-align: center;
-
 }
 
 .email_header {
     text-align: center;
     color: whitesmoke;
-    padding-top: 40px;
-    font-size: 42px;
+    padding-top: 50px;
+    font-size: 48px;
     font-family: 'Fjalla One', sans-serif;
 }
 
 #email {
     background: #2B2B2B;
-
 }
 
-.email_strategy { 
+.email_strategy {
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    
-
 }
 
 .email_list {
     color: ghostwhite;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    padding-top: 10px;
-    font-size: 17px;
+    padding-top: 15px;
+    font-size: 18px;
 }
 
 li {
     list-style-type: none;
 }
 
-.padding_4p { 
+.padding_4p {
     padding: 4%;
 }
 
@@ -209,4 +199,13 @@ li {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.row1 {
+    padding-bottom: 100px;
+}
+
+.maxwidth960 {
+    max-width: 1060px;
+    text-align: center;
 }
