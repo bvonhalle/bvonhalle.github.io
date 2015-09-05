@@ -26,6 +26,7 @@
     <!--	FONTs-->
     <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed|Lobster|Pacifico|Playball|Kaushan+Script|Rancho' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic|Merriweather+Sans:400,300,300italic,400italic,700,700italic,800,800italic|Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Open+Sans+Condensed:300,300italic,700|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -60,7 +61,7 @@
     <header>
         <div class="navbar navbar-inverse navbar-static-top">
             <div class="container">
-                <a href="index.html" class="navbar-brand">Brett von Halle</a>
+                <a href="index.html" class="navbar-brand">BVH</a>
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -76,11 +77,10 @@
                         </li>
                         <li><a href="fun.html">Fun</a>
                         </li>
-                        <li><a href="sample.html">Sample</a>
-                        </li>
 
-                        <li><a href="#contact" data-toggle="modal">Contact</a>
-                        </li>
+
+                       <!-- <li><a href="#contact" data-toggle="modal">Contact</a>
+                        </li> -->
 
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social<b class="caret"></b></a>
@@ -110,20 +110,27 @@
         </div>
     </header>
 
-    <div class="jumbotron">
-        <div class="container">
-            <h1>Brett von Halle</h1>
-            <p>I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.</p>
-            <p>– Michael Jordan</p>
-        </div>
+    <div class="container-fluid">
+        <div class="row row1" id="hometop">
+            <section class="padding_4p bvh">
 
+
+                <div class="container">
+                    <div class="top-box">
+                    <h1>Hello World</h1>
+                </div>
+                </div>
+
+
+            </section>
+        </div>
     </div>
 
     <div class="container-fluid">
-        <div class="row row1" id="email">
+        <div class="row row1 colored-bg" id="email">
             <section class="padding_4p">
                 <div class="container maxwidth960">
-                    <h2 class="email_header">Email Marketing</h2>
+                    <h2 class="email_header">What do  I do?</h2>
                     <div class="col-sm-4">
                         <img class="center-block email-icons" src="http://www.skushed.com/wp-content/uploads/2015/05/icon-magnifying-glass12.png">
                         <p class="email_list">Lead Generation</p>
@@ -131,7 +138,7 @@
 
                     <div class="col-sm-4">
                         <img class="center-block email-icons" src="http://www.skushed.com/wp-content/uploads/2015/05/icon-email.png">
-                        <p class="email_list">Design and Strategy</p>
+                        <p class="email_list">Design &amp; Strategy</p>
                     </div>
                     <div class="col-sm-4">
                         <img class="center-block email-icons" src="http://www.skushed.com/wp-content/uploads/2015/05/icon-hand-holding.png">
@@ -143,7 +150,7 @@
                     </div>
                     <div class="col-sm-4">
                         <img class="center-block email-icons" src="http://www.skushed.com/wp-content/uploads/2015/05/icon-reports3.png">
-                        <p class="email_list">Email Reporting</p>
+                        <p class="email_list">Reporting &amp; Analytics</p>
                     </div>
                     <div class="col-sm-4">
                         <img class="center-block email-icons" src="http://www.skushed.com/wp-content/uploads/2015/05/icon-funnel.png">
@@ -154,14 +161,14 @@
         </div>
     </div>
 
-    <div class="container-fluid">
+    <!--  <div class="container-fluid">
         <div class="row row1" id="email">
             <section class="padding_4p">
 
 
             </section>
         </div>
-    </div>
+    </div>-->
 
     <div class="bottombox">
         <ul class="socialnetworklink">
@@ -185,7 +192,7 @@
         </ul>
     </div>
 
-    <div class="modal fade" id="contact" role="dialog">
+    <div class="modal fade" xid="contact" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <form name="contactme" method="post" action="send_form.php" onsubmit="return encrypt();">
